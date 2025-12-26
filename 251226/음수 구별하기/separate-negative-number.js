@@ -6,6 +6,8 @@ let num1 = Number(input[0])
 if (num1 < 0) {
     console.log(num1)
     console.log('minus')
+} else {
+    console.log(num1)
 }
 
 
