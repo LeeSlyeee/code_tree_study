@@ -15,7 +15,7 @@ for (let i = num; i <= 100; i++) {
     } else if (i >= 60) {
         result.push('D');       
     } else {
-        result.push('E');
+        result.push('F');
     }
 }
 
