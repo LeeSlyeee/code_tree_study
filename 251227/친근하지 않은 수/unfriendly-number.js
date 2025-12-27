@@ -5,12 +5,11 @@ let num = Number(input);
 
 let count = 0;
 
-for (let i = 0; i < num; i++) {
+for (let i = 1; i <= num; i++) {
     if (i % 2 === 0 || i % 3 === 0 || i % 5 === 0) {
         continue;
-    } else {
-        count++;
     }
+    count++;
 }
 
 console.log(count);
