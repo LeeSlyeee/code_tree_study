@@ -6,7 +6,7 @@ let num2 = Number(input[1]);
 
 let result = 0;
 
-for (let i = num1; i < num2; i++) {
+for (let i = num1; i <= num2; i++) {
     if (i % 2 === 0) {
         result += i
     }
