@@ -10,6 +10,7 @@ for (let i = 0; i < input.length; i++) {
         }
         if(Number(input[i]) === 25) {
                 console.log('Good');
+                break;
         }
 
 }
